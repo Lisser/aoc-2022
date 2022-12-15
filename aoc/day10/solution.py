@@ -24,7 +24,7 @@ class Day10(ABC):
         self.x += int(arg)
 
 
-class Day10SolutionA(Day10):
+class SolutionA(Day10):
 
     def __init__(self):
         super().__init__()
@@ -41,7 +41,7 @@ class Day10SolutionA(Day10):
         return sum(self.signals)
 
 
-class Day10SolutionB(Day10):
+class SolutionB(Day10):
 
     def __init__(self):
         super().__init__()

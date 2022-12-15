@@ -1,20 +1,19 @@
-from abc import ABC
+from aoc.solution import Solution
 
 
-class Day11(ABC):
-    ...
-
-    def solve(self, input_: str) -> int:
-        ...
-
-
-class Day11SolutionA(Day11):
+class Day11(Solution):
 
     def solve(self, input_: str) -> int:
         ...
 
 
-class Day11SolutionB(Day11):
+class SolutionA(Day11):
+
+    def solve(self, input_: str) -> int:
+        ...
+
+
+class SolutionB(Day11):
 
     def solve(self, input_: str) -> int:
         ...
