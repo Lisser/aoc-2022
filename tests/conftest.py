@@ -36,4 +36,4 @@ class SolutionTest:
 
     @property
     def solution_b(self):
-        return self.module.SolutionA()
+        return self.module.SolutionB()
