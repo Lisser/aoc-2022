@@ -8,13 +8,13 @@ class Day11(ABC):
         ...
 
 
-class Day11SolutionA(Day11):
+class SolutionA(Day11):
 
     def solve(self, input_: str) -> int:
         ...
 
 
-class Day11SolutionB(Day11):
+class SolutionB(Day11):
 
     def solve(self, input_: str) -> int:
         ...
